@@ -1,6 +1,6 @@
 cask "unimetype" do
-  version "1.0.22"
-  sha256 "d96a7c12ed5bce7570c6cef380c954f14f9e4e599f0e7c8ffc1e2996fcafd907"
+  version "1.0.23"
+  sha256 "a8ce482175b0aee147064dda9c3ae949d18b120dee0d00fef9d48a3b7873354b"
 
   url "https://downloads.unimetype.com/releases/macos-v#{version}/UnimeTypeMac.dmg"
   name "UnimeType"
@@ -13,7 +13,7 @@ cask "unimetype" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "UnimeTypeMac.app"
 
