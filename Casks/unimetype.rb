@@ -1,6 +1,6 @@
 cask "unimetype" do
-  version "1.1.7"
-  sha256 "40337b1596edf093154bcbe072f698ffe08177d9389deadbaf7db0f94672c3c6"
+  version "1.1.8"
+  sha256 "dfc89b8a53c3ecd732b24c07e91286219f111d15befd3af46763cd3e00422b69"
 
   url "https://downloads.unimetype.com/releases/macos-v#{version}/UnimeTypeMac.dmg"
   name "UnimeType"
